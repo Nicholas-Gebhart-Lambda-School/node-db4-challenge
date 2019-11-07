@@ -6,7 +6,7 @@ server.use(express.json());
 server.use("/api/recipes", recipesRouter);
 
 server.get("/", (req, res) => {
-  res.send(200).json("<h3>Hello World</h3>");
+  res.send("<h3>Hello World</h3>");
 });
 
 module.exports = server;
