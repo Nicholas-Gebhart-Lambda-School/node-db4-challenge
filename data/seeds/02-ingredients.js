@@ -1,10 +1,10 @@
 exports.seed = function(knex) {
   return knex("ingredients").insert([
-    { name: "lentils" },
-    { name: "chickpeas" },
-    { name: "chard" },
-    { name: "salt" },
-    { name: "pepper" },
-    { name: "lemon" }
+    { ingredient_name: "lentils" },
+    { ingredient_name: "chickpeas" },
+    { ingredient_name: "chard" },
+    { ingredient_name: "salt" },
+    { ingredient_name: "pepper" },
+    { ingredient_name: "lemon" }
   ]);
 };
